@@ -1,0 +1,16 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node test application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "atsvetkov2020",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
