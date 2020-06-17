@@ -6,11 +6,12 @@ class AppVersion {
     init(){
         this.version = this.getVersion();
     }
-    getVersion=  () => {
+
+    getVersion() {
         return this.getVersionFromFile(VERSION_FILE);
     }
 
-    getVersionFromFile = (filename) => {
+    getVersionFromFile(filename) {
         const path = process.cwd() + "/" + filename;
         let version = "";
         try {
